@@ -1,0 +1,15 @@
+html{background-color: black;}
+.box{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+      text-align: center;
+
+}
+h1{text-transform:uppercase;}
+
+
+
+
+img{border: white solid 5px; width:250px 250px;}
