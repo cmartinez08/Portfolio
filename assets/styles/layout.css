@@ -7,6 +7,10 @@ section{
   height:300px;float:left;
   clear:none;
 }
-.one{background-color:blue;}
+.one{
+  background-color:blue;}
+.two{
+  width:100%;
+  background-color:red;}
 
 
