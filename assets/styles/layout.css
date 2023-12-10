@@ -1,5 +1,11 @@
-header{width:100%; height:300px; border: solid black 2px;}
-footer{width:100%; height:300px; border: solid black 2px;}
+header{
+  width:100%; 
+  height:300px; 
+  border: solid black 2px;}
+footer{
+  width:100%;
+  height:300px; 
+  border: solid black 2px;}
 
 section{
   border:solid 2px black; 
