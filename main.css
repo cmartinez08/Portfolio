@@ -1,47 +1,64 @@
 *{box-sizing: border-box;}
-body{font-family: Verdana, Geneva, Tahoma, sans-serif;
-     
-    
-    }
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h1{text-transform: uppercase;
   text-align: center;
-  font-size: 50px;font-weight: 100;
-   background-color:green;
-  
-  }
+  font-size: 50px;font-weight: 100; }
 
   .portfolio{ 
-    position:relative;
+    
     gap: 2px;
-    max-width: 100%;
+    max-width: 75%;
     height: 100%;
-    margin: 10px;
     padding: 0;
-
+    border:solid green 5px;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    left:10%;
+    
+
+    
 }
 
-a {text-decoration: none;color: blue;margin-top: 5px;}
+a {text-decoration: none;
+    margin-top: 5px;
+    height: 50%;
+    align-self: center;
+    font-size: x-large;
+   
+    }
 
 a:hover{background-color: red;color:aliceblue}
 .box{
-    
-    position: relative;
-    width:300px;
+
+    width:50%;
     height:50%;
     margin:5px;
-    text-align: center;
+    border:solid red 2px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+    left:27.5%;
     
     }
+
+    .one, .three{display:flex;
+        flex-direction:row;
+        justify-content: space-between;}
+
+    .box.one>a{margin-left:15%;}
+    .box.three>a{margin-left:15%;}
+
+    .box>a{margin-left:25%;}
+    .flexpic{margin-left:90% ; border:solid black 2px;}
+    
 
 img{
     width:250px;
     height:200px;
     border-radius: 5px;
     border:solid 2px black;
-    align-items: center;
     margin-top: 10px;
     
 
